@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+uploads/
+screenshots/*.png
+screenshots/*.jpg
+static/*.css.map
+*.log
+
+# Secrets
+.env
+*.key
+credentials.json
+
+# Build artifacts
+build/
+dist/
+*.spec
+manifest/
+
+# Test artifacts
+test_log.json
+test_results.txt
